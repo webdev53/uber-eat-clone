@@ -1,24 +1,16 @@
+import 'react-native-gesture-handler';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, View } from 'react-native';
-import DishDetailsScreen from './src/screens/DishDetailsScreen';
-import Basket from './src/screens/Basket';
-import OrderScreen from './src/screens/OrdersScreen';
-import OrderDetails from './src/screens/OrderDetails';
+import RootNavigator from './src/navigation';
 
-import HomeScreen from './src/screens/HomeScreen';
-import RestaurantDetailsPage from './src/screens/RestaurantDetailsScreen';
+import { NavigationContainer } from '@react-navigation/native';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      {/* <HomeScreen /> */}
-      {/* <RestaurantDetailsPage /> */}
-      {/* <DishDetailsScreen /> */}
-      {/* <Basket /> */}
-      {/* <OrderScreen /> */}
-      <OrderDetails />
+    <NavigationContainer>
+      <RootNavigator />
       <StatusBar style="auto" />
-    </View>
+    </NavigationContainer>
   );
 }
 
