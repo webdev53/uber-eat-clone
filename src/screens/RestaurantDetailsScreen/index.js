@@ -11,7 +11,7 @@ const RestaurantDetailsPage = () => {
   return (
     <View style={styles.page}>
       <FlatList
-        ListHeaderComponent={Header}
+        ListHeaderComponent={() => <Header restaurant={restaurant} />}
         data={restaurant.dishes}
         renderItem={({ item }) => <DishListItem dish={item} />}
       />

@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-const styles = StyleSheet.create({
+export default StyleSheet.create({
   container: {
     margin: 10,
   },
@@ -24,5 +24,10 @@ const styles = StyleSheet.create({
   subtitle: {
     fontSize: 15,
     color: 'gray',
+  },
+  menuTitle: {
+    marginTop: 20,
+    fontSize: 22,
+    letterSpacing: 0.7,
   },
 });

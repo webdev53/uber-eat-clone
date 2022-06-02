@@ -1,11 +1,8 @@
-import { View, Text, Image, FlatList, StyleSheet } from 'react-native';
-import { Ionicons } from '@expo/vector-icons';
-import restaurants from '../../../assets/data/restaurants.json';
-import DishListItem from '../../components/DishListItem';
+import { View, Text, Image } from 'react-native';
 
-const restaurant = restaurants[0];
+import styles from './styles';
 
-const RestaurantDetailsPage = () => {
+const RestaurantHeader = ({ restaurant }) => {
   return (
     <View style={styles.page}>
       <Image source={{ uri: restaurant.image }} style={styles.image} />
@@ -16,36 +13,11 @@ const RestaurantDetailsPage = () => {
           ${restaurant.deliveryFee} &#8226; {restaurant.minDeliveryTime} -{' '}
           {restaurant.maxDeliveryTime} minutes
         </Text>
+
+        <Text style={styles.menuTitle}>Menu</Text>
       </View>
     </View>
   );
 };
 
-const styles = StyleSheet.create({
-  container: {
-    margin: 10,
-  },
-  iconContainer: {
-    position: 'absolute',
-    top: 40,
-    left: 10,
-  },
-  page: {
-    flex: 1,
-  },
-  image: {
-    width: '100%',
-    aspectRatio: 5 / 3,
-  },
-  title: {
-    fontSize: 30,
-    fontWeight: '600',
-    marginVertical: 10,
-  },
-  subtitle: {
-    fontSize: 15,
-    color: 'gray',
-  },
-});
-
-export default RestaurantDetailsPage;
+export default RestaurantHeader;
