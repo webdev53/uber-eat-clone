@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\reactredux\.node\corepack\yarn\1.22.15\bin\yarn.js add -- --reset-cache
+  C:\Program Files\nodejs\node.exe C:\Users\reactredux\.node\corepack\yarn\1.22.15\bin\yarn.js add @react-navigation/material-bottom-tabs react-native-paper react-native-vector-icons~
 
 PATH: 
   C:\Users\reactredux\AppData\Local\Programs\Git\mingw64\bin;C:\Users\reactredux\AppData\Local\Programs\Git\usr\bin;C:\Users\reactredux\bin;C:\Program Files (x86)\VMware\VMware Player\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\nodejs;C:\Program Files\Java\jdk-11.0.13\bin;C:\Users\react redux\AppData\Local\Programs\Git\bin;C:\Users\reactredux\AppData\Roaming\npm;C:\xampp\php;C:\Users\reactredux\Downloads\DOCS;C:\ProgramData\ComposerSetup\bin;C:\mingw64\bin;C:\laragon\bin;C:\laragon\bin\apache\httpd-2.4.47-win64-VS16\bin;C:\laragon\bin\composer;C:\laragon\bin\git\bin;C:\laragon\bin\git\cmd;C:\laragon\bin\git\mingw64\bin;C:\laragon\bin\git\usr\bin;C:\laragon\bin\laragon\utils;C:\laragon\bin\mysql\mysql-5.7.33-winx64\bin;C:\laragon\bin\nginx\nginx-1.19.10;C:\laragon\bin\ngrok;C:\laragon\bin\nodejs\node-v14;C:\laragon\bin\notepad++;C:\laragon\bin\php\php-8.1.5-nts-Win32-vs16-x64;C:\laragon\bin\redis\redis-x64-3.2.100;C:\laragon\bin\telnet;C:\laragon\usr\bin;C:\Users\reactredux\AppData\Local\Yarn\config\global\node_modules\.bin;C:\Users\reactredux\AppData\Roaming\Composer\vendor\bin;C:\Users\reactredux\AppData\Roaming\npm;C:\Users\reactredux\.cargo\bin;C:\Users\reactredux\AppData\Local\Microsoft\WindowsApps;C:\Users\reactredux\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\reactredux\AppData\Local\Programs\Git\cmd;C:\Users\reactredux\AppData\Local\GitHubDesktop\bin
@@ -14,7 +14,7 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/--reset-cache: Not found
+  Error: https://registry.yarnpkg.com/react-native-vector-icons~: Not found
       at Request.params.callback [as _callback] (C:\Users\reactredux\.node\corepack\yarn\1.22.15\lib\cli.js:66140:18)
       at Request.self.callback (C:\Users\reactredux\.node\corepack\yarn\1.22.15\lib\cli.js:140885:22)
       at Request.emit (node:events:520:28)
